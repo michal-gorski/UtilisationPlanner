@@ -1,0 +1,14 @@
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\UtilisationPlannerAddIn.dll
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\UtilisationPlannerAddIn.pdb
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\UtilisationPlannerAddIn.dll.manifest
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\UtilisationPlannerAddIn.vsto
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.csprojAssemblyReference.cache
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.AddInRibbon.resources
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.FileForm.resources
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.Properties.Resources.resources
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.csproj.GenerateResource.cache
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.csproj.CoreCompileInputs.cache
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.csproj.CopyComplete
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.dll
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\obj\Debug\UtilisationPlannerAddIn.pdb
