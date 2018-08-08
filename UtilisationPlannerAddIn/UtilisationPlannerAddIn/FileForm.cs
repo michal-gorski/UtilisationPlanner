@@ -12,6 +12,9 @@ namespace UtilisationPlannerAddIn
 {
     public partial class FileForm : Form
     {
+        public string AssignmentsFile { get; private set;}
+        public string HolidaysFile { get; private set; }
+
         public FileForm()
         {
             InitializeComponent();
@@ -27,6 +30,12 @@ namespace UtilisationPlannerAddIn
         {
             this.ofdHolidays.ShowDialog();
             this.tbHolidays.Text = ofdHolidays.FileName;
+        }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            AssignmentsFile = tbAssignments.Text;
+            HolidaysFile = tbHolidays.Text;
         }
     }
 }

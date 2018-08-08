@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FileForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.tbAssignments = new System.Windows.Forms.TextBox();
-            this.btnLoadAssignments = new System.Windows.Forms.Button();
             this.btnLoadHolidays = new System.Windows.Forms.Button();
             this.tbHolidays = new System.Windows.Forms.TextBox();
-            this.btnOK = new System.Windows.Forms.Button();
+            this.btnLoadAssignments = new System.Windows.Forms.Button();
+            this.tbAssignments = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.btnOK = new System.Windows.Forms.Button();
             this.ofdAssignments = new System.Windows.Forms.OpenFileDialog();
             this.ofdHolidays = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
@@ -55,43 +55,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(742, 173);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.btnCancel);
-            this.panel2.Controls.Add(this.btnOK);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 113);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(742, 60);
-            this.panel2.TabIndex = 1;
-            // 
-            // tbAssignments
-            // 
-            this.tbAssignments.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbAssignments.Enabled = false;
-            this.tbAssignments.Location = new System.Drawing.Point(15, 16);
-            this.tbAssignments.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tbAssignments.Name = "tbAssignments";
-            this.tbAssignments.Size = new System.Drawing.Size(515, 27);
-            this.tbAssignments.TabIndex = 0;
-            // 
-            // btnLoadAssignments
-            // 
-            this.btnLoadAssignments.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLoadAssignments.Image = ((System.Drawing.Image)(resources.GetObject("btnLoadAssignments.Image")));
-            this.btnLoadAssignments.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLoadAssignments.Location = new System.Drawing.Point(536, 16);
-            this.btnLoadAssignments.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnLoadAssignments.Name = "btnLoadAssignments";
-            this.btnLoadAssignments.Size = new System.Drawing.Size(197, 29);
-            this.btnLoadAssignments.TabIndex = 1;
-            this.btnLoadAssignments.Text = "Load Assignments";
-            this.btnLoadAssignments.UseVisualStyleBackColor = true;
-            this.btnLoadAssignments.Click += new System.EventHandler(this.btnLoadAssignments_Click);
             // 
             // btnLoadHolidays
             // 
@@ -118,16 +81,42 @@
             this.tbHolidays.Size = new System.Drawing.Size(515, 27);
             this.tbHolidays.TabIndex = 2;
             // 
-            // btnOK
+            // btnLoadAssignments
             // 
-            this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOK.Location = new System.Drawing.Point(629, 10);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(99, 38);
-            this.btnOK.TabIndex = 0;
-            this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnLoadAssignments.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLoadAssignments.Image = ((System.Drawing.Image)(resources.GetObject("btnLoadAssignments.Image")));
+            this.btnLoadAssignments.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLoadAssignments.Location = new System.Drawing.Point(536, 16);
+            this.btnLoadAssignments.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLoadAssignments.Name = "btnLoadAssignments";
+            this.btnLoadAssignments.Size = new System.Drawing.Size(197, 29);
+            this.btnLoadAssignments.TabIndex = 1;
+            this.btnLoadAssignments.Text = "Load Assignments";
+            this.btnLoadAssignments.UseVisualStyleBackColor = true;
+            this.btnLoadAssignments.Click += new System.EventHandler(this.btnLoadAssignments_Click);
+            // 
+            // tbAssignments
+            // 
+            this.tbAssignments.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbAssignments.Enabled = false;
+            this.tbAssignments.Location = new System.Drawing.Point(15, 16);
+            this.tbAssignments.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tbAssignments.Name = "tbAssignments";
+            this.tbAssignments.Size = new System.Drawing.Size(515, 27);
+            this.tbAssignments.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.btnCancel);
+            this.panel2.Controls.Add(this.btnOK);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 113);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(742, 60);
+            this.panel2.TabIndex = 1;
             // 
             // btnCancel
             // 
@@ -140,14 +129,26 @@
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
+            // btnOK
+            // 
+            this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnOK.Location = new System.Drawing.Point(629, 10);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(99, 38);
+            this.btnOK.TabIndex = 0;
+            this.btnOK.Text = "OK";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            // 
             // ofdAssignments
             // 
-            this.ofdAssignments.Filter = "\"CSV Files|*.csv\"";
+            this.ofdAssignments.Filter = "CSV Files|*.csv";
             // 
             // ofdHolidays
             // 
             this.ofdHolidays.FileName = "openFileDialog2";
-            this.ofdHolidays.Filter = "\"CSV Files|*.csv\"";
+            this.ofdHolidays.Filter = "CSV Files|*.csv";
             // 
             // FileForm
             // 

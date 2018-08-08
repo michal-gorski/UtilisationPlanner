@@ -206,6 +206,12 @@
     <AppDesigner Include="Properties\" />
     <None Include="UtilisationPlannerAddIn_TemporaryKey.pfx" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileParser\FileParser.csproj">
+      <Project>{E4E2EE15-5081-4151-9DF3-49B6397B5B5C}</Project>
+      <Name>FileParser</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

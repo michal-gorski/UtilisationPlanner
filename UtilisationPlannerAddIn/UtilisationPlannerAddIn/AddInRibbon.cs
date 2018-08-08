@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using FileParser;
 using Microsoft.Office.Tools.Ribbon;
 
 namespace UtilisationPlannerAddIn
@@ -20,7 +17,8 @@ namespace UtilisationPlannerAddIn
 
             if (fileForm.DialogResult != System.Windows.Forms.DialogResult.Cancel)
             {
-                
+                AllocationsFileParser.ParseAllocationsFile(fileForm.AssignmentsFile);
+                //HolidaysFileParser.ParseHolidaysFile(fileForm.HolidaysFile);
             }
         }
     }

@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Csv/1.0.31": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Csv.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Csv.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +41,19 @@
     }
   },
   "libraries": {
+    "Csv/1.0.31": {
+      "sha512": "3EBPR5/S4GRZog19LI3F/cOKskccG79mjhNLG0WcZcp3IftpJQn0HikgGoCHg5fVuE5wgbgiY6rpAhk10g9A7Q==",
+      "type": "package",
+      "path": "csv/1.0.31",
+      "files": [
+        "csv.1.0.31.nupkg.sha512",
+        "csv.nuspec",
+        "lib/net40/Csv.dll",
+        "lib/net40/Csv.xml",
+        "lib/netstandard1.0/Csv.dll",
+        "lib/netstandard1.0/Csv.xml"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -173,6 +198,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Csv >= 1.0.31",
       "NETStandard.Library >= 2.0.1"
     ]
   },
@@ -217,6 +243,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Csv": {
+            "target": "Package",
+            "version": "[1.0.31, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

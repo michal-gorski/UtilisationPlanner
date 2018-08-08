@@ -1,0 +1,9 @@
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\bin\Debug\netstandard2.0\FileParser.deps.json
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\bin\Debug\netstandard2.0\FileParser.dll
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.csproj.CoreCompileInputs.cache
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.AssemblyInfoInputs.cache
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.AssemblyInfo.cs
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\bin\Debug\netstandard2.0\FileParser.pdb
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.dll
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.pdb
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.csprojAssemblyReference.cache
