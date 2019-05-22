@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "ad122d0f997465c500fd8a4c31755cf2e8a80d73"
+    "signature": "781c65fa3ebe864d320385734d5369417d6115d4"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,8 @@
       "FileParser/1.0.0": {
         "dependencies": {
           "Csv": "1.0.31",
-          "NETStandard.Library": "2.0.1"
+          "NETStandard.Library": "2.0.3",
+          "UtilisationData": "1.0.0"
         },
         "runtime": {
           "FileParser.dll": {}
@@ -18,16 +19,24 @@
       },
       "Csv/1.0.31": {
         "dependencies": {
-          "NETStandard.Library": "2.0.1"
+          "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "lib/netstandard1.0/Csv.dll": {}
+          "lib/netstandard1.0/Csv.dll": {
+            "assemblyVersion": "1.0.31.0",
+            "fileVersion": "1.0.31.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "UtilisationData/1.0.0": {
+        "runtime": {
+          "UtilisationData.dll": {}
         }
       }
     }
@@ -52,12 +61,17 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "NETStandard.Library/2.0.1": {
+    "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
-      "path": "netstandard.library/2.0.1",
-      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "UtilisationData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

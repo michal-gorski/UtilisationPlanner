@@ -7,3 +7,6 @@ C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\bin\Debug\netsta
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.dll
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.pdb
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.csprojAssemblyReference.cache
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\bin\Debug\netstandard2.0\UtilisationData.dll
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\bin\Debug\netstandard2.0\UtilisationData.pdb
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\FileParser\obj\Debug\netstandard2.0\FileParser.csproj.CopyComplete

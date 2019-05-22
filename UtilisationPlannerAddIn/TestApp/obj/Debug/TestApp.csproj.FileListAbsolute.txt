@@ -107,3 +107,5 @@ C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\TestApp\obj\Debug\TestApp.e
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\TestApp\obj\Debug\TestApp.pdb
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\TestApp\bin\Debug\Csv.dll
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\TestApp\bin\Debug\Csv.xml
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\TestApp\bin\Debug\UtilisationData.dll
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\TestApp\bin\Debug\UtilisationData.pdb

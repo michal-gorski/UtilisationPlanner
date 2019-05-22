@@ -6,3 +6,4 @@ C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationData\obj\Debug\n
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationData\obj\Debug\netstandard2.0\UtilisationData.AssemblyInfo.cs
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationData\obj\Debug\netstandard2.0\UtilisationData.dll
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationData\obj\Debug\netstandard2.0\UtilisationData.pdb
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationData\obj\Debug\netstandard2.0\UtilisationData.csprojAssemblyReference.cache

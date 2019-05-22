@@ -57,6 +57,10 @@
       <Project>{E4E2EE15-5081-4151-9DF3-49B6397B5B5C}</Project>
       <Name>FileParser</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UtilisationData\UtilisationData.csproj">
+      <Project>{8d291533-3385-4928-9354-1ead6b106ee9}</Project>
+      <Name>UtilisationData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

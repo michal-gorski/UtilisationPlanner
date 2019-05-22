@@ -8,4 +8,8 @@
     <PackageReference Include="Csv" Version="1.0.31" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UtilisationData\UtilisationData.csproj" />
+  </ItemGroup>
+
 </Project>

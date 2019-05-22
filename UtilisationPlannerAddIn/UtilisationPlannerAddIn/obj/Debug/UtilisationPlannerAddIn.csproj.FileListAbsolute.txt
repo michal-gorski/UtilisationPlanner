@@ -110,3 +110,5 @@ C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\FileParser.dll
 C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\FileParser.pdb
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\UtilisationData.dll
+C:\Repos\Utilisation_Planner\UtilisationPlannerAddIn\UtilisationPlannerAddIn\bin\Debug\UtilisationData.pdb

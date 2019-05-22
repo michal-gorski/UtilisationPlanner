@@ -5,7 +5,6 @@ namespace UtilisationData
 {
     public class UtilisationItem
     {
-        public string Employee;
         public List<Allocation> Allocations;
         public DateTime Week;
     }

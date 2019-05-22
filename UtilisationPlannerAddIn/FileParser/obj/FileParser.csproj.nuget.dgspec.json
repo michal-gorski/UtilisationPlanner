@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\FileParser\\FileParser.csproj": {}
+  },
+  "projects": {
+    "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\FileParser\\FileParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\FileParser\\FileParser.csproj",
+        "projectName": "FileParser",
+        "projectPath": "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\FileParser\\FileParser.csproj",
+        "packagesPath": "C:\\Users\\michalg\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\FileParser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\michalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\UtilisationData\\UtilisationData.csproj": {
+                "projectPath": "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\UtilisationData\\UtilisationData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Csv": {
+              "target": "Package",
+              "version": "[1.0.31, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\UtilisationData\\UtilisationData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\UtilisationData\\UtilisationData.csproj",
+        "projectName": "UtilisationData",
+        "projectPath": "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\UtilisationData\\UtilisationData.csproj",
+        "packagesPath": "C:\\Users\\michalg\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\Utilisation_Planner\\UtilisationPlannerAddIn\\UtilisationData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\michalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
